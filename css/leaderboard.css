@@ -1,0 +1,33 @@
+#leaderboard {
+    background-color: #03045E;
+}
+
+#leaderboard a{
+    color: white;
+}
+
+.leader-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 95%;
+    width: 95%;
+    font-size: xx-large;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#ranking-header {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.first-place {
+    color: gold;
+}
+
+.second-place {
+    color: silver;
+}
+
+.third-place {
+    color: brown;
+}

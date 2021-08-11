@@ -8,31 +8,76 @@
 html, body {
     width:100%;
     height:100%;
-    background-color: darkgoldenrod;
+    background-color: #90E0EF;
 }
 
 /*page elements*/
 body{
     display:grid;
-    grid-template-rows: auto 1fr auto;
-    background-image: url(../images/balling.jpg);
+    grid-template-rows: 1fr 5fr;
+    /* background-image: url(../images/balling.jpg); */
     background-size: cover;
     font-size: 20;
     
 }
 
 nav {
-    background-color: darkorchid;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    background-color:#00B4D8;
+    height:100%;
+}
+
+#button-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 20%;
+    background-color: #CAF0F8;
+}
+
+#home, #newspage, #leaderboard{
+    border-right: 12px solid black;
 }
 
 main{
     width:100%;
-    max-width:900px;
-    margin-left:auto;
-    margin-right:auto;
-    background-color:deepskyblue;
+    height:100%;
+    background-color:#90E0EF;
+}
+
+header{
+    background-color: cyan;
+    color:black;
 }
 
 footer{
     background-color:turquoise;
+}
+
+.selected{
+    background-color: darkblue;
+    color:white;
+}
+
+.button-text{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
 }

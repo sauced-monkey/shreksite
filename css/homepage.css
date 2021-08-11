@@ -1,0 +1,37 @@
+#home {
+    background-color: #03045E;
+}
+
+#home a{
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: #03045E;
+    color: white;
+}
+
+#game-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.game-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
