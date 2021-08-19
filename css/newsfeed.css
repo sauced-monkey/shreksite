@@ -1,3 +1,8 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 #newspage {
     background-color: #03045E;
 }
@@ -6,3 +11,16 @@
     color: white;
 }
 
+.profile-div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.profile-div p {
+    text-align: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: medium;
+}

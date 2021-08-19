@@ -38,6 +38,7 @@ nav {
     align-items: center;
     justify-content: flex-end;
     margin-right: 10%;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav ul {
     display: grid;
@@ -80,4 +81,13 @@ footer{
     font-style: italic;
     font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: large;
+}
+
+footer {
+    display: grid;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #48cae4;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    font-size: small;
 }

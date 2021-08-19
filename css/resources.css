@@ -5,3 +5,34 @@
 #resources a{
     color: white;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resource-table {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 95%;
+    width: 75%;
+}
+
+.resource a img{
+    width: 400px;
+}
+
+.resource a {
+    height: 100%;
+}
+
+.resource {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.resource p {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
